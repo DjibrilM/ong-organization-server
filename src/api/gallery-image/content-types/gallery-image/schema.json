@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "articles",
+  "collectionName": "gallery_images",
   "info": {
-    "singularName": "article",
-    "pluralName": "articles",
-    "displayName": "articles"
+    "singularName": "gallery-image",
+    "pluralName": "gallery-images",
+    "displayName": "gallery_image"
   },
   "options": {
     "draftAndPublish": true
@@ -14,10 +14,7 @@
     "title": {
       "type": "string"
     },
-    "body": {
-      "type": "blocks"
-    },
-    "cover": {
+    "image": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [

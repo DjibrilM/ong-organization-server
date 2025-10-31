@@ -1,25 +1,28 @@
 {
   "kind": "collectionType",
-  "collectionName": "articles",
+  "collectionName": "events",
   "info": {
-    "singularName": "article",
-    "pluralName": "articles",
-    "displayName": "articles"
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "events"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "name": {
       "type": "string"
     },
-    "body": {
-      "type": "blocks"
+    "description": {
+      "type": "text"
     },
-    "cover": {
+    "event_date": {
+      "type": "datetime"
+    },
+    "medias": {
       "type": "media",
-      "multiple": false,
+      "multiple": true,
       "allowedTypes": [
         "images",
         "files",

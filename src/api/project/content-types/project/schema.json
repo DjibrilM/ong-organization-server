@@ -1,25 +1,25 @@
 {
   "kind": "collectionType",
-  "collectionName": "articles",
+  "collectionName": "projects",
   "info": {
-    "singularName": "article",
-    "pluralName": "articles",
-    "displayName": "articles"
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "projects"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "name": {
       "type": "string"
     },
-    "body": {
+    "descrption": {
       "type": "blocks"
     },
-    "cover": {
+    "medias": {
       "type": "media",
-      "multiple": false,
+      "multiple": true,
       "allowedTypes": [
         "images",
         "files",
