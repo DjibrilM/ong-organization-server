@@ -12,7 +12,8 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "descrption": {
       "type": "blocks"
@@ -26,6 +27,10 @@
         "videos",
         "audios"
       ]
+    },
+    "body": {
+      "type": "blocks",
+      "required": true
     }
   }
 }

@@ -17,15 +17,18 @@
     "body": {
       "type": "blocks"
     },
-    "cover": {
+    "article_cover": {
       "type": "media",
       "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
-        "files",
-        "videos",
-        "audios"
+        "files"
       ]
+    },
+    "introduction": {
+      "type": "blocks",
+      "required": true
     }
   }
 }
