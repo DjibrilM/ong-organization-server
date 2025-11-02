@@ -26,6 +26,9 @@
     },
     "body": {
       "type": "blocks"
+    },
+    "introduction": {
+      "type": "richtext"
     }
   }
 }
