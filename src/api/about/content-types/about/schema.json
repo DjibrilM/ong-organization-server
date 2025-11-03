@@ -24,11 +24,9 @@
         "shared.slider"
       ]
     },
-    "description": {
-      "type": "text"
-    },
     "location": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "date": {
       "type": "datetime"
@@ -42,6 +40,9 @@
         "videos",
         "audios"
       ]
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }

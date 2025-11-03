@@ -27,8 +27,7 @@
       ]
     },
     "introduction": {
-      "type": "blocks",
-      "required": true
+      "type": "richtext"
     }
   }
 }
