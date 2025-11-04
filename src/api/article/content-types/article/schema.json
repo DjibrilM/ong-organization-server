@@ -14,9 +14,6 @@
     "title": {
       "type": "string"
     },
-    "body": {
-      "type": "blocks"
-    },
     "article_cover": {
       "type": "media",
       "multiple": false,
@@ -27,6 +24,9 @@
       ]
     },
     "introduction": {
+      "type": "richtext"
+    },
+    "body": {
       "type": "richtext"
     }
   }
